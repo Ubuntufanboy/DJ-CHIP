@@ -2,6 +2,7 @@ import numpy as np
 import wave
 import mido
 import pyaudio
+from instrument import GM_INSTRUMENTS
 
 class Channel:
     def __init__(self, instrument_name, bit_depth=16, sample_rate=44100, waveform='sine', volume=1.0):
